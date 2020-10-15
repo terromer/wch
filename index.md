@@ -1,19 +1,11 @@
-## Welcome to GitHub Pages
+欢迎来到我的个人主页
 
-You can use the [editor on GitHub](https://github.com/terromer/wch/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# 个人信息
+## 学校：浙江大学宁波理工学院
+## 姓名：吴晨晖
+## 班级：电信193
+## 邮箱：15157224680@163.com
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
 
 - Bulleted
 - List
