@@ -5,6 +5,7 @@
 ## 姓名：吴晨晖
 ## 班级：电信193
 ## 邮箱：15157224680@163.com
-[信号与系统](https://github.com/terromer/wch.git)
+# [信号与系统](https://github.com/terromer/wch.git)
+## [连续函数图像](https://github.com/terromer/wch/tree/main/%E5%87%BD%E6%95%B0)
 
 
