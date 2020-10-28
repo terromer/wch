@@ -6,7 +6,7 @@
 ## 班级：电信193
 ## 邮箱：15157224680@163.com
 # [信号与系统实践环节](https://github.com/terromer/wch/blob/main/README.md)
-## 函数图像
+## 函数图像：
 ### [连续函数图像](https://github.com/terromer/wch/tree/main/%E5%87%BD%E6%95%B0)
 ### [离散函数图像](https://github.com/terromer/wch/tree/main/%E7%A6%BB%E6%95%A3%E5%87%BD%E6%95%B0)
 
