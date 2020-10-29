@@ -4,23 +4,24 @@ from pylab import *
 
 x=np.linspace(0,5,20)
 x1=np.linspace(0,10,10)
-X=[2,1.5,1,0.5]
 
-def lssin():
-    y1=np.sin(np.pi*x+2)
+
+
+def lisan_sin():
+    y1=np.sin(np.pi*x)
     plt.title('sin(n)')
     plt.grid(True)
     plt.stem(x,y1)
     plt.show()
 
-def lsex():
+def lisan_ex():
     y4=2*0.5**x1
     plt.grid(True)
     plt.title('e^x(n)')
     plt.stem(x1,y4)
     plt.show()
 
-def  lsjy():
+def  lisan_jieyue():
     def dwjy(t):
         r=np.where(t>=0.0,1.0,0.0)
         return r
@@ -31,7 +32,7 @@ def  lsjy():
     plt.stem(n,dwjy(n))
     plt.show()
 
-def lscj():
+def lisan_chongji():
     def dwxl(temp):
         r=np.where(temp==0.0,1.0,0.0)
         return r
@@ -43,11 +44,24 @@ def lscj():
     plt.show()
 
 
-from tkinter import *
-tk=Tk()
-tk.title("离散信号图像")
-Button(tk,text="离散sin",command=lssin).pack(side=LEFT)
-Button(tk,text="离散e^x",command=lsex).pack(side=LEFT)
-Button(tk,text="离散阶跃",command=lsjy).pack(side=LEFT)
-Button(tk,text="离散冲击",command=lscj).pack(side=RIGHT)
-tk.mainloop()
+
+
+
+import tkinter as tk
+class App:
+    def __init__(self, root):
+        root.title("离散函数图像")
+        frame = tk.Frame(root)
+        frame.pack()
+        self = tk.Button(frame, text="离散sin", fg="blue", command=lisan_sin)
+        self.pack(side=tk.LEFT)
+        self = tk.Button(frame, text="离散ex", fg="blue", command=lisan_ex)
+        self.pack(side=tk.LEFT)
+        self = tk.Button(frame, text="离散阶跃", fg="blue", command=lisan_jieyue)
+        self.pack(side=tk.LEFT)
+        self = tk.Button(frame, text="离散冲击", fg="blue", command=lisan_chongji)
+        self.pack(side=tk.LEFT)
+
+root = tk.Tk()
+app = App(root)
+root.mainloop()
