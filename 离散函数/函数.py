@@ -15,7 +15,7 @@ def lisan_sin():
     plt.show()
 
 def lisan_ex():
-    y4=2*0.5**x1
+    y4=e**x1
     plt.grid(True)
     plt.title('e^x(n)')
     plt.stem(x1,y4)
